@@ -1,0 +1,38 @@
+@use "./variables.scss" as *;
+@use "./в\ крупных\ проектах\ создают\ один\ большой\ файл/styles.scss" as *;
+@use "sass:list";
+
+.example {
+  @include theme(dark);
+  width: getSize(154);
+}
+
+$colors: red, green, blue, purple;
+
+.grid {
+  display: grid;
+
+  // & > * {
+  //   @for $i from 1 through list.length($colors) {
+  //     &:nth-child(#{$i}) {
+  //       background-color: list.nth($colors, $i);
+  //     }
+  //   }
+  // }
+  & > * {
+    @each $color in $colors {
+      &:nth-child(#{list.index($colors, $color)}) {
+        background-color: $color;
+      }
+    }
+  }
+}
+
+.negr > h1 + p {
+  background-color: red;
+}
+
+.fdg {
+  gap: getValue();
+  background-color: var(--color-dark);
+}
