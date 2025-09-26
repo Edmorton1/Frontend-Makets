@@ -1,0 +1,22 @@
+@debug header_module;
+
+// TODO: Сделать адаптив
+
+header {
+  display: flex;
+  height: 114px;
+	width: 100%;
+  // flex-direction: column;
+
+  #logo {
+		align-self: center;
+    width: 137px;
+    height: 74px;
+  }
+
+	nav {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+}

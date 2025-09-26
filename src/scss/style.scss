@@ -1,0 +1,8 @@
+@use "./utils/colors";
+@use "../../public/fonts/stylesheet.css";
+
+@debug load_style_scss;
+
+* {
+  font-family: "Jost" !important;
+}
