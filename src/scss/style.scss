@@ -1,8 +1,27 @@
-@use "./utils/colors";
-@use "../../public/fonts/stylesheet.css";
+@forward "./utils/reset.css";
+@forward "./utils/colors";
+@forward "../../public/fonts/stylesheet.css";
+@forward "./utils/mixins";
 
 @debug load_style_scss;
 
 * {
-  font-family: "Jost" !important;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
+body {
+  margin: 20px 60px 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 26px;
 }

@@ -4,19 +4,26 @@
 
 header {
   display: flex;
+  justify-content: space-between;
   height: 114px;
-	width: 100%;
-  // flex-direction: column;
+  font-size: 18px;
 
   #logo {
-		align-self: center;
+    align-self: center;
     width: 137px;
     height: 74px;
   }
 
-	nav {
-		display: flex;
-		align-items: center;
-		gap: 16px;
-	}
+  nav {
+    display: flex;
+    align-items: center;
+
+    &:first-child {
+      gap: 25px;
+    }
+
+    &:last-child {
+      gap: 16px;
+    }
+  }
 }
