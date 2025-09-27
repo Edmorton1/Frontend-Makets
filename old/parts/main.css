@@ -1,0 +1,49 @@
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+}
+
+#icons {
+  display: flex;
+  gap: 66px;
+  font-size: 11px;
+  text-transform: uppercase;
+
+  /* TODO: Переименовать */
+  .article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 81px;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 700px;
+}
+
+#design-addicted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--color-yellow);
+  color: var(--color-white);
+  font-size: 14px;
+  text-transform: uppercase;
+  height: 20px;
+  width: 136px;
+}

@@ -1,0 +1,20 @@
+/* TODO: Сделать адаптив */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    &.main {
+      gap: 25px;
+    }
+
+    &.secondary {
+      gap: 16px;
+    }
+  }
+}

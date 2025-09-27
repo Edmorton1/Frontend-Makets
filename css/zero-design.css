@@ -1,0 +1,29 @@
+.zero-design {
+  display: flex;
+  gap: 50px;
+}
+
+.zero-design__information {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.zero-design__text {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.zero-design__text-about {
+  font-size: 22px;
+}
+
+.zero-design__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  /* display: grid;
+  grid-template-columns: repeat(3, max-content); */
+  gap: 9px;
+}

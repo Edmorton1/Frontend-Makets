@@ -1,0 +1,29 @@
+.landing-pages {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.landing-pages__landings {
+  display: grid;
+  gap: 78px 48px;
+}
+
+.landing-pages__landing_columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.landing-pages__landing_columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.landing-pages__landing {
+  background-color: var(--color-gray);
+  /* padding: 29px 29px 81px 29px; */
+  padding: 29px 29px 29px 29px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 17px;
+  text-transform: uppercase;
+}

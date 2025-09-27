@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.button_font-size_small {
+  font-size: 14px;
+}
+
+.button_font-size_medium {
+  font-size: 18px;
+}
+
+.button_font-size_large {
+  width: max-content;
+  font-size: 36px;
+}

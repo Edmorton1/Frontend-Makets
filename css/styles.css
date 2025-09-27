@@ -1,0 +1,20 @@
+@import "./reset.css";
+@import "./color.css";
+@import "../assets/fonts/stylesheet.css";
+
+@import "./typography.css";
+@import "./button.css";
+
+@import "./header.css";
+@import "./ui-kit.css";
+@import "./zero-design.css";
+@import "./landing-pages.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
+body {
+  margin: 20px 60px;
+}
