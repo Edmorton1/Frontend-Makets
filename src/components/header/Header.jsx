@@ -8,15 +8,15 @@ console.log(styles);
 
 export const Header = () => {
   return (
-    <header>
-      <nav>
+    <header id={styles.header}>
+      <nav className={styles.main}>
         <img src={logo} id={styles.logo} />
         <a>Landing</a>
         <a>Company</a>
         <a>CMS Pages</a>
         <a>Utility</a>
       </nav>
-      <nav>
+      <nav className={styles.secondary}>
         <button className={button}>$129 Buy Now</button>
         <img src={searchIcon} alt="search icon" />
         <img src={cartIcon} alt="buy icon" />

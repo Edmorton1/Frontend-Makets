@@ -2,28 +2,28 @@
 
 // TODO: Сделать адаптив
 
-header {
+#header {
   display: flex;
   justify-content: space-between;
   height: 114px;
   font-size: 18px;
 
-  #logo {
-    align-self: center;
-    width: 137px;
-    height: 74px;
-  }
-
   nav {
     display: flex;
     align-items: center;
 
-    &:first-child {
+    &.main {
       gap: 25px;
     }
 
-    &:last-child {
+    &.secondary {
       gap: 16px;
     }
   }
+}
+
+#logo {
+  align-self: center;
+  width: 137px;
+  height: 74px;
 }

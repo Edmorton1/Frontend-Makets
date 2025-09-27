@@ -7,7 +7,7 @@ import fast_customization from "../../assets/icons/fast_customization.svg";
 
 export const AStylishUiKit = () => {
   return (
-    <main>
+    <main id={styles.main}>
       <section>
         <section id={styles.text}>
           <div id={styles["design-addicted"]}>Design addicted</div>
@@ -22,7 +22,6 @@ export const AStylishUiKit = () => {
         <section id={styles.icons}>
           <article className={styles.article}>
             <img src={smooth_interactions} alt="" />
-            {/* TODO Это должно быть БОЛЬШИМИ БУКВАМИ */}
             <div>smooth interactions</div>
           </article>
           <article className={styles.article}>
