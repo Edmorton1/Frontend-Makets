@@ -4,11 +4,13 @@
 
 @import "./typography.css";
 @import "./button.css";
+@import "./input.css";
 
 @import "./header.css";
 @import "./ui-kit.css";
 @import "./zero-design.css";
 @import "./landing-pages.css";
+@import "./footer.css";
 
 * {
   box-sizing: border-box;
