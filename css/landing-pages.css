@@ -10,11 +10,8 @@
 }
 
 .landing-pages__landing_columns-2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.landing-pages__landing_columns-3 {
-  grid-template-columns: repeat(3, 1fr);
+  justify-content: start;
+  grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
 }
 
 .landing-pages__landing {

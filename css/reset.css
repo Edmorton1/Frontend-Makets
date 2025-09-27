@@ -135,5 +135,10 @@
 
 :where(button) {
   padding: 0;
-	border: 0;
+  border: 0;
+}
+
+:where(a) {
+  text-decoration: none;
+  color: black;
 }

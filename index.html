@@ -22,10 +22,13 @@
         <img src="assets/icons/search_icon.svg" alt="search icon" />
         <img src="assets/icons/cart_icon.svg" alt="buy icon" />
       </nav>
+      <nav class="header__menu-button">
+        <button class="button button_font-size_medium">menu</button>
+      </nav>
     </header>
 
     <!-- Main Section - A Stylish UI Kit -->
-    <div class="ui-kit">
+    <div class="ui-kit mg-top__small">
       <div class="ui-kit__text-section">
         <div class="ui-kit__text">
           <div class="ui-kit__design-addicted">Design addicted</div>
@@ -59,20 +62,25 @@
       </div>
 
       <img
+        class="ui-kit__image"
         src="assets/images/main_image.png"
-        style="width: 728px; height: 785px"
         alt=""
+        loading="lazy"
       />
     </div>
 
     <!-- Zero Design Section -->
-    <div class="zero-design">
-      <img src="assets/images/zero_design.png" alt="" />
+    <div class="zero-design mg-top__big">
+      <img
+        class="zero-design__image"
+        src="assets/images/zero_design.png"
+        alt=""
+      />
 
       <div class="zero-design__information">
         <div class="zero-design__text">
           <div class="typography_big">Zero Design</div>
-          <div class="zero-design__text-about">
+          <div class="typography_small">
             Includes a total of 10 static pages, divided like this: 4 Landing
             pages, 2 About pages, 2 Contact page, 1 Team page, 1 FAQ page. In
             addition to these, there are Webflow CMS driven pages: Blog (in 2
@@ -97,11 +105,8 @@
     </div>
 
     <!-- Landing Pages Section -->
-    <div class="landing-pages">
-      <!-- TODO: Убрать инлайн -->
-      <div style="margin-top: 100px" class="button button_font-size_large">
-        LANDING PAGES
-      </div>
+    <div class="landing-pages mg-top__big">
+      <div class="button button_font-size_large">LANDING PAGES</div>
       <div class="landing-pages__landings landing-pages__landing_columns-2">
         <div class="landing-pages__landing">
           <img src="./assets/images/landing_pages/landing_1.png" alt="" />
@@ -123,12 +128,9 @@
     </div>
 
     <!-- Company Section -->
-    <div class="landing-pages">
-      <!-- TODO: Убрать инлайн -->
-      <div style="margin-top: 100px" class="button button_font-size_large">
-        Company
-      </div>
-      <div class="landing-pages__landings landing-pages__landing_columns-3">
+    <div class="landing-pages mg-top__big">
+      <div class="button button_font-size_large">Company</div>
+      <div class="landing-pages__landings landing-pages__landing_columns-2">
         <div class="landing-pages__landing">
           <img src="./assets/images/company/about_1.png" alt="" />
           <div class="typography_medium">about 1</div>
@@ -161,9 +163,8 @@
     </div>
 
     <!-- CMS Pages Section -->
-    <div class="landing-pages">
-      <!-- TODO: Убрать инлайн -->
-      <div style="margin-top: 100px" class="button button_font-size_large">
+    <div class="landing-pages mg-top__big">
+      <div class="button button_font-size_large">
         CMS Pages
       </div>
       <div class="landing-pages__landings landing-pages__landing_columns-2">
@@ -215,9 +216,8 @@
     </div>
 
     <!-- Utility Section -->
-    <div class="landing-pages">
-      <!-- TODO: Убрать инлайн -->
-      <div style="margin-top: 100px" class="button button_font-size_large">
+    <div class="landing-pages mg-top__big">
+      <div class="button button_font-size_large">
         Utility
       </div>
       <div class="landing-pages__landings landing-pages__landing_columns-2">
@@ -245,14 +245,13 @@
     </div>
 
     <!-- Footer -->
-    <!-- TODO: Убрать инлайн -->
-    <footer class="footer" style="margin-top: 100px">
+    <footer class="footer mg-top__big">
       <div class="footer__left">
         <div class="footer__form">
           <div class="footer__subscribe">Subscribe our newsletter</div>
           <div class="footer__input">
             <input class="input" type="text" />
-            <button class="button"></button>
+            <button class="button button_size_fixed"></button>
           </div>
         </div>
         <div class="footer__icons">
@@ -318,12 +317,8 @@
     </footer>
 
     <div class="footer__signs">
-      <div>
-        Powered by <span class="footer__highlight">Webflow</span>
-      </div>
-      <div>
-        Created by <span class="footer__highlight">Udesly</span>
-      </div>
+      <div>Powered by <span class="footer__highlight">Webflow</span></div>
+      <div>Created by <span class="footer__highlight">Udesly</span></div>
     </div>
   </body>
 </html>

@@ -1,11 +1,17 @@
 .typography_small {
-  font-size: 26px;
+  /* font-size: clamp(16px); */
+	/* font-size: clamp(26px); */
+	/* font-size: 26px; */
+	font-size: clamp(15px, 4vw, 26px);
 }
 
 .typography_medium {
-  font-size: 50px;
+  /* font-size: 50px; */
+	font-size: clamp(26px, 4.5vw, 45px);
 }
 
 .typography_big {
-  font-size: 96px;
+  /* font-size: 96px; */
+	/* font-size: 9vw; */
+	font-size: clamp(54px, 9vw, 96px);
 }

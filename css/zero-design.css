@@ -7,23 +7,36 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
+  width: 100%;
 }
 
 .zero-design__text {
   display: flex;
   flex-direction: column;
-  gap: 43px;
-}
-
-.zero-design__text-about {
-  font-size: 22px;
+  gap: clamp(16px, 5vw, 43px);
 }
 
 .zero-design__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 50%;
-  /* display: grid;
-  grid-template-columns: repeat(3, max-content); */
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
   gap: 9px;
+}
+
+.zero-design__image {
+  width: 100%;
+  max-width: 660px;
+  min-width: 550px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 1180px) {
+  .zero-design__image {
+    display: none;
+  }
+
+	.zero-design__buttons {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }

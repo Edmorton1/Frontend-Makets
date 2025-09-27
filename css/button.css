@@ -3,8 +3,6 @@
   justify-content: center;
   align-items: center;
 
-	min-width: 120px;
-	min-height: 40px;
   padding: 10px 20px;
   background-color: var(--color-black);
   color: var(--color-white);
@@ -21,4 +19,9 @@
 .button_font-size_large {
   width: max-content;
   font-size: 36px;
+}
+
+.button_size_fixed {
+  min-width: 120px;
+  min-height: 40px;
 }

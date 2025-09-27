@@ -1,16 +1,36 @@
 .header {
   display: flex;
   justify-content: space-between;
-	align-items: center;
+  align-items: center;
 }
 
 .header__main {
-	display: flex;
-	align-items: center;
-	gap: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
 .header__secondary {
-	display: flex;
-	gap: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.header__menu-button {
+  display: none;
+}
+
+@media (max-width: 785px) {
+  .header__menu-button {
+    display: block;
+  }
+
+  .header__main {
+    a {
+      display: none;
+    }
+  }
+
+  .header__secondary {
+    display: none;
+  }
 }
