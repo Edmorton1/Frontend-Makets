@@ -13,11 +13,8 @@
 @import "./landing-pages.css";
 @import "./footer.css";
 
-* {
-  box-sizing: border-box;
-  font-family: "Jost";
-}
-
 body {
   margin: 20px 3vw;
+  box-sizing: border-box;
+  font-family: "Jost";
 }

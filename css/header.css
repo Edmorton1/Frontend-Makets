@@ -24,10 +24,8 @@
     display: block;
   }
 
-  .header__main {
-    a {
-      display: none;
-    }
+  .header__main a {
+    display: none;
   }
 
   .header__secondary {

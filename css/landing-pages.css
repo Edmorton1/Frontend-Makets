@@ -12,11 +12,11 @@
 .landing-pages__landing_columns-2 {
   justify-content: start;
   grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  /* columns: 345px; */
 }
 
 .landing-pages__landing {
   background-color: var(--color-gray);
-  /* padding: 29px 29px 81px 29px; */
   padding: 29px 29px 29px 29px;
   display: flex;
   justify-content: center;

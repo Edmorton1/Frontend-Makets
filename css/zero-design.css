@@ -22,6 +22,10 @@
   gap: 9px;
 }
 
+.zero-design__buttons .button {
+	cursor: default;
+}
+
 .zero-design__image {
   width: 100%;
   max-width: 660px;
