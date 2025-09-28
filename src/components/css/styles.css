@@ -1,17 +1,13 @@
 @import "./reset.css";
 @import "./color.css";
-@import "../assets/fonts/stylesheet.css";
+@import "../../assets/fonts/stylesheet.css";
 
 @import "./typography.css";
 @import "./button.css";
 @import "./input.css";
 @import "./mg-top.css";
 
-@import "./header.css";
-@import "./ui-kit.css";
-@import "./zero-design.css";
 @import "./landing-pages.css";
-@import "./footer.css";
 
 body {
   margin: 20px 3vw;
